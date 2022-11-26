@@ -21,7 +21,7 @@
 	section							{ margin: 50px;
 								}
 								
-	.search							{float: right;
+	.searchBox							{float: right;
 								 width: 200px;
 								 border: 3px solid green;
 								}
