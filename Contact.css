@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+		color: blue;
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	margin-bottom: 20px;
+	}
+body{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	background: #f2f2f2;
+	font-family: 'Russo One', sans-serif;
+	 background-image: url("sharjaah.jpg") ;
+	 background-size: 1550px 750px;
+}
+
+.container{
+	background: #d6ecf3;
+	padding: 30px;
+	border-radius: 20px;
+	width: 350px;
+	box-shadow: 14px 14px 20px #cdced1, -14px -14px 20px white;
+}
+
+
+
+
+.container .form-control{
+	color: #333;
+	background: #ecf0f3;
+	font-size: 15px;
+	height: 50px;
+	padding: 20px;
+	letter-spacing: 1px;
+	border: none;
+	bprder-radius: 50px;
+	box-shadow: inset 6px 6px 6px #cbced1, insent -6px -6px -6px #fff;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+	width: 100%;
+	margin: 0 0 25px;
+	outline: none;
+} 
+
+::placeholder{
+	color: grey;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.btn{
+	color: orange;
+	background: #ecf0f3;
+	font-size: 20px;
+	font-weight: bold;
+	text-transfrom: uppercase;
+	width: 100%;
+	padding: 12px 15px 11px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 6px 6px 6px #cbced1, -6px -6px -6px #fff;
+	transition: all 0.5s ease 0s;
+	margin: 5px 0 5px;
+	cursor: pointer;
+}
+
+.btnn{
+	color: blue;
+	background: #ecf0f3;
+	font-size: 20px;
+	font-weight: bold;
+	text-transfrom: uppercase;
+	width: 100%;
+	padding: 12px 15px 11px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 6px 6px 6px #cbced1, -6px -6px -6px #fff;
+	transition: all 0.5s ease 0s;
+	margin: 5px 0 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+color : red;
+}
+
+.btnn:hover {
+color : red;
+}
