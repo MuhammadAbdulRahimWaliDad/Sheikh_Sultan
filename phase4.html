@@ -1,0 +1,20 @@
+<script src="lib/script.js"></script>
+<h1>contact Page</h1>
+<form onsubmit="return false">
+</form>
+<input type="text" placeholder="Enter your first name" id="firstName" />
+<input type="email" placeholder="Enter your email" id="email" />
+<input type="text" placeholder="Address" id="address" />
+       
+<select id="country">
+ <option disabled selected value> -- select a country -- </option>
+ <option value="UAE">UAE</option>
+ <option value="KSA">KSA</option>
+ <option value="Kuwait">Kuwait</option>
+</select>
+<br><br>
+<span>What is your question?</span>
+<br>
+<textarea id="question" rows="4"></textarea>
+<br><br>
+<button onclick="sendContact();">Send contact</button>
