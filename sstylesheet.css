@@ -1,4 +1,20 @@
-
+	body							{
+								    font-family: 'Roboto', sans-serif;
+								}
+       	.mytabs 						{
+								    display: flex;
+								    flex-wrap: wrap;
+								    max-width: 800px;
+								    margin: 50px auto;
+								    padding: 25px;
+								    
+								}
+								
+	.v							{ font-size: 30px;
+								  font-family: 'dubai','Roboto', sans-serif;
+								}
+								
+								
 	h1 							{ margin: 0 15px;
 								  font-size: 35px;
 								  font-family: 'dubai','Roboto', sans-serif;
@@ -7,6 +23,51 @@
 	
 	section							{ margin: 50px;
 								}
+								
+	.searchBox						{float: right;
+								 width: 200px;
+								 border: 3px solid green;
+								}
+																
+	.mytabs input[type="radio"] 				{
+								    display: none;
+								}
+	.mytabs label	   	 				{
+								    padding: 25px;
+								    background: #e2e2e2;
+								    font-weight: bold;
+								}
+								
+	.mytabs .tab 						{
+								    width: 100%;
+								    padding: 20px;
+								    background: #fff;
+								    order: 1;
+								    display: none;
+								    overflow: scroll;
+								}
+	.mytabs .tab h2 					{
+								    font-size: 3em;
+									}
+								
+	.mytabs input[type='radio']:checked + label + .tab 	{
+								 display: block;
+							  	 border: 5px solid black;
+								
+								}
+								
+	.mytabs input[type="radio"]:checked + label 		{
+							   	 background: #f5f43f;
+								}
+																
+	section img						{border: 10px solid gold;
+								}
+																
+																
+																
+	.makefloat { float: left;
+								margin: 0 15px;
+	}
 						
 	
 	
